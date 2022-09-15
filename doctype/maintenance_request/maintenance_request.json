@@ -12,7 +12,6 @@
   "details_of_proposed_work",
   "justification_for_request",
   "place_of_work",
-  "location",
   "image"
  ],
  "fields": [
@@ -26,14 +25,14 @@
   },
   {
    "fieldname": "details_of_proposed_work",
-   "fieldtype": "Markdown Editor",
+   "fieldtype": "Small Text",
    "in_list_view": 1,
    "label": "Details of Proposed Work",
    "reqd": 1
   },
   {
    "fieldname": "justification_for_request",
-   "fieldtype": "Small Text",
+   "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Justification For Request",
    "reqd": 1
@@ -46,18 +45,13 @@
    "reqd": 1
   },
   {
-   "fieldname": "location",
-   "fieldtype": "Geolocation",
-   "label": "Location"
-  },
-  {
    "fieldname": "image",
    "fieldtype": "Attach Image",
    "label": "Image"
   }
  ],
  "links": [],
- "modified": "2022-09-15 21:22:54.585141",
+ "modified": "2022-09-15 22:18:11.600999",
  "modified_by": "Administrator",
  "module": "services",
  "name": "Maintenance Request",
