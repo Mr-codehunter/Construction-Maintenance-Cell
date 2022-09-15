@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_guest_to_view": 1,
+ "allow_rename": 1,
+ "autoname": "cmc.####",
+ "creation": "2022-09-14 22:30:22.362578",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "nature_of_work",
+  "details_of_proposed_work",
+  "justification_for_request",
+  "place_of_work",
+  "location",
+  "image"
+ ],
+ "fields": [
+  {
+   "fieldname": "nature_of_work",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Nature of Work",
+   "options": "Civil\nMechanical\nOthers",
+   "reqd": 1
+  },
+  {
+   "fieldname": "details_of_proposed_work",
+   "fieldtype": "Markdown Editor",
+   "in_list_view": 1,
+   "label": "Details of Proposed Work",
+   "reqd": 1
+  },
+  {
+   "fieldname": "justification_for_request",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Justification For Request",
+   "reqd": 1
+  },
+  {
+   "fieldname": "place_of_work",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Place of Work",
+   "reqd": 1
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Geolocation",
+   "label": "Location"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  }
+ ],
+ "links": [],
+ "modified": "2022-09-15 21:22:54.585141",
+ "modified_by": "Administrator",
+ "module": "services",
+ "name": "Maintenance Request",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
