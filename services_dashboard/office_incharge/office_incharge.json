@@ -1,0 +1,33 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "Request",
+   "width": "Half"
+  },
+  {
+   "chart": "Pending",
+   "width": "Half"
+  },
+  {
+   "chart": "Approved",
+   "width": "Half"
+  },
+  {
+   "chart": "reject",
+   "width": "Half"
+  }
+ ],
+ "creation": "2022-09-18 15:42:48.036204",
+ "dashboard_name": "Office Incharge",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2022-09-18 15:42:48.036204",
+ "modified_by": "Administrator",
+ "module": "services",
+ "name": "Office Incharge",
+ "owner": "Administrator"
+}

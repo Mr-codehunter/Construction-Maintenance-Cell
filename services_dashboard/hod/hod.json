@@ -1,0 +1,33 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "Request",
+   "width": "Half"
+  },
+  {
+   "chart": "Approved",
+   "width": "Half"
+  },
+  {
+   "chart": "Pending",
+   "width": "Half"
+  },
+  {
+   "chart": "reject",
+   "width": "Half"
+  }
+ ],
+ "creation": "2022-09-18 14:54:39.990666",
+ "dashboard_name": "HOD",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2022-09-18 15:36:42.105053",
+ "modified_by": "Administrator",
+ "module": "services",
+ "name": "HOD",
+ "owner": "jasjitkaur778@gmail.com"
+}
